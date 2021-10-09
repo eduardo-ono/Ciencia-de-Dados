@@ -18,6 +18,7 @@ sudo apt update && sudo apt upgrade
 
 ## Instalação do Miniconda
 
+<br>
 
 ## Gerenciamneto de Ambientes com o Conda
 
