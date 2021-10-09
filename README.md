@@ -10,26 +10,27 @@ Este repositório contempla o conteúdo equivalente ao curso '[Professional Cert
 
 <br>
 
-## Conteúdo Programático
+## Conteúdo
 
-|| Introdução à Ciência de Dados
-| :-: | --- |
-| 01 | |
+| Python para Ciência de Dados |
+| --- |
+| Introdução à Ciência de Dados
 
-|| Python para Ciência de Dados
-| :-: | --- ||
+| Matemática para Ciência de Dados |
+| --- |
+| - Cálculo <br> - Álgebra Linear
 
-|| Estatística |
-| :-: | --- |
+| Estatística |
+| --- |
 
-|| Modelagem de Dados |
-| :-: | --- |
+| Modelagem de Dados |
+| --- |
 
-|| Machine Learning |
-| :-: | --- |
+| Machine Learning |
+| --- |
 
-|| Estudo de Casos e Projeto em Ciência de Dados |
-| :-: | --- |
+| Estudo de Casos e Projeto em Ciência de Dados |
+| --- |
 
 <br>
 
