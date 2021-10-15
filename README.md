@@ -6,7 +6,7 @@ Prof. Eduardo Ono
 
 ## Descrição
 
-Este repositório contempla o conteúdo equivalente ao curso '[Professional Certificate in Data Science](https://online-learning.harvard.edu/series/professional-certificate-data-science)', disponibilizado pela Universidade de Harvard. A diferença básica é que o curso de Harvard adota como principal ferramenta a linguagem R, ao passo que o curso aqui faz uso da lingugam Python e suas principais bibliotecas. 
+Este repositório visa contemplar o conteúdo equivalente ao curso '[Professional Certificate in Data Science](https://online-learning.harvard.edu/series/professional-certificate-data-science)', disponibilizado pela Universidade de Harvard. A diferença básica é que o curso de Harvard adota como principal ferramenta a linguagem R, ao passo que o presente curso faz uso da lingugam Python.
 
 <br>
 
@@ -29,7 +29,7 @@ Este repositório contempla o conteúdo equivalente ao curso '[Professional Cert
 | Machine Learning |
 | --- |
 
-| Estudo de Casos e Projeto em Ciência de Dados |
+| [Projetos e Estudo de Casos em Ciência de Dados](./projetos) |
 | --- |
 
 <br>
