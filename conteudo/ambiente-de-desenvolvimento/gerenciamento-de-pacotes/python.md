@@ -1,14 +1,12 @@
-> Ciência de Dados > Conteúdo > Ambiente de Desenvolvimento
+> Ciência de Dados > Conteúdo > Ambiente de Desenvolvimento > Gerenciamento de Pacotes
 
-# Gerenciamento de Ambientes
+# Python
 
 Prof. Eduardo Ono
 
 <br>
 
-## Python Pip
-
-### Instalação de Pacotes
+## Instalação de Pacotes
 
 * Supondo o arquivo `requirements.txt` salvo no diretório, executar no mesmo diretório:
 
@@ -18,9 +16,6 @@ pip install -r requirements.txt
 
 * Exemplo do conteúdo de um arquivo `requirements.txt`:
 
-```txt
-pandas==0.25.3
-numpy==1.17.4
-```
+  * https://jtemporal.com/requirements-txt/
 
 <br>
