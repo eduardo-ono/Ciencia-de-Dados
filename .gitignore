@@ -1,0 +1,7 @@
+*.exe
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+Provas/
+Vídeos/
+ToDo/
+tmp/
