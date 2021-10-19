@@ -34,6 +34,22 @@ Este repositório visa contemplar o conteúdo equivalente ao curso '[Professiona
 
 <br>
 
+## Recursos
+
+### Softwares
+
+* Microsoft Visual Studio Code - https://code.visualstudio.com
+
+  * https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+
+  * https://www.shortcutfoo.com/app/dojos/vscode-win/cheatsheet
+
+  * https://docs.emmet.io/cheat-sheet/
+
+  * https://vscodecandothat.com/
+
+<br>
+
 ## Canais Recomendados
 
 * [Guiminam](https://www.youtube.com/c/Guiminam)

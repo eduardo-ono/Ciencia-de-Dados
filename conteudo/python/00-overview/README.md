@@ -14,6 +14,14 @@ Prof. Eduardo Ono
 
 <br>
 
+## Crash Courses
+
+| Thumb | Descrição |
+| :-: | --- |
+| [![img](https://img.youtube.com/vi/VchuKL44s6E/default.jpg)](https://www.youtube.com/watch?v=VchuKL44s6E "Python As Fast as Possible - Learn Python in ~75 Minutes") | <sup>[Tech With Tim]</sup> [__Python As Fast as Possible - Learn Python in ~75 Minutes__](https://www.youtube.com/watch?v=VchuKL44s6E) <br> <small>(1:19:40, YouTube, Out/2020)</small>
+
+<br>
+
 ## Cursos "Completos"
 
 | Thumb | Descrição |

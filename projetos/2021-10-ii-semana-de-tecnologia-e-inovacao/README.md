@@ -1,6 +1,6 @@
 > Ciência de Dados > Projetos
 
-# II Semana de Tecnologia e Inovação (Unisal) - 04-08/Out/2021
+# II Semana de Tecnologia e Inovação - Unisal <br> <sub>04-08/Out/2021</sub>
 
 Prof. Eduardo Ono
 
@@ -30,14 +30,18 @@ O evento visa reunir conteúdos de profissionais e de empresas de renome na áre
 
 ## Conteúdo
 
-* Trilha 1 (N/A)
+* Trilha 1
 
-* Trilha 2 (N/A)
+  *  N/A
+
+* Trilha 2
+
+  * N/A
 
 * Trilha 3
 
   * [Dia 05](./dia-05)
 
-  * Dias 06-07 - ChatBot
+  * [Dias 06-07 - ChatBot](./dia-06-07)
 
 <br>
