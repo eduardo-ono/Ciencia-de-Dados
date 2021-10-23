@@ -15,3 +15,5 @@ Prof. Eduardo Ono
 * ### [Estruturas de Repetição](./estruturas-de-repeticao.ipynb)
 
 <br>
+
+https://www.youtube.com/watch?v=3ofsvEUzXCE

@@ -17,3 +17,5 @@ Prof. Eduardo Ono
 * ### Jupyter Lab
 
 <br>
+
+https://www.youtube.com/watch?v=ZC8bfSZLl80

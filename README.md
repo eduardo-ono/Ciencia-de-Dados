@@ -12,7 +12,7 @@ Este repositório visa contemplar o conteúdo equivalente ao curso '[Professiona
 
 ## Conteúdo
 
-| Python para Ciência de Dados |
+| [Python para Ciência de Dados](./conteudo/python) |
 | --- |
 | Introdução à Ciência de Dados
 
