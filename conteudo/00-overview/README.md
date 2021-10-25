@@ -19,6 +19,11 @@ Prof. Eduardo Ono
 * [freeCodeCamp.org] https://www.youtube.com/watch?v=N6BghzuFLIg \|\| 1:39:48
 * [Ken Jee] https://www.youtube.com/watch?v=41Clrh6nv1s
 
+
+| Thumb | Descrição |
+| :-: | --- |
+| [![img](https://img.youtube.com/vi/z6jbqkmshig/default.jpg)](https://www.youtube.com/watch?v=z6jbqkmshig) | <sup>[UNIVESP]</sup> [__Introdução à Ciência de Dados - Introdução à Ciência de Dados__](https://www.youtube.com/watch?v=z6jbqkmshig) <br> <sub>(22:46, YouTube, Out/2021)</sub>
+
 <br>
 
 ## Pré-Requisitos
@@ -42,5 +47,11 @@ Prof. Eduardo Ono
 * [edureka!] [Data Science Full Course - Learn Data Science in 10 Hours | Data Science For Beginners | Edureka](https://www.youtube.com/watch?v=-ETQ97mXXF0) \|\| 10:23:56, YouTube, Ago/2019.
 
 * [Intellipaat] [Data Science Course | Data Science Tutorial | Intellipaat](https://www.youtube.com/watch?v=QtYOI-9R1vo) \|\| 11:07:59, YouTube, Mar/2020.
+
+<br>
+
+## Cursos "Completos"
+
+* https://www.youtube.com/playlist?list=PLUl4u3cNGP619EG1wp0kT-7rDE_Az5TNd
 
 <br>

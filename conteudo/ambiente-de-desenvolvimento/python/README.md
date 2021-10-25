@@ -119,6 +119,8 @@ pip list
 
 * https://docs.python-guide.org/dev/virtualenvs/#virtualenvironments-ref
 
+* https://www.youtube.com/watch?v=z6_35nNKy0Y
+
 <br>
 
 ---

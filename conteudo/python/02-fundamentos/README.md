@@ -10,6 +10,8 @@ Prof. Eduardo Ono
 
 * ### Introdução
 
+https://www.youtube.com/watch?v=150-dpYG1pg
+
 * ### Estruturas de Decisão
 
 * ### [Estruturas de Repetição](./estruturas-de-repeticao.ipynb)
