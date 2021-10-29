@@ -19,3 +19,10 @@ https://www.youtube.com/watch?v=150-dpYG1pg
 <br>
 
 https://www.youtube.com/watch?v=3ofsvEUzXCE
+
+| Thumb | Descrição |
+| :-: | --- |
+| [![img](https://img.youtube.com/vi/5Ui37whUDrM/default.jpg)](https://www.youtube.com/watch?v=5Ui37whUDrM) | <sup>[Tech With Tim]</sup> [__5 Python BAD Practices To Avoid__](https://www.youtube.com/watch?v=5Ui37whUDrM)<br> <sub>(19:26, YouTube, Ago/2021)</sub>
+| [![img](https://img.youtube.com/vi/AQCr0zU5Lzg/default.jpg)](https://www.youtube.com/watch?v=AQCr0zU5Lzg) | <sup>[Michael Galarnyk]</sup> [__Differences between Python Tuples and Lists__](https://www.youtube.com/watch?v=AQCr0zU5Lzg)<br> <sub>(3:12, YouTube, Nov/2018)</sub>
+
+<br>

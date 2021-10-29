@@ -1,4 +1,4 @@
-> ###### Ciência de Dados > Conteúdo > Ambiente de Desenvolvimento
+> <h5>Ciência de Dados > Conteúdo > Ambiente de Desenvolvimento</h5>
 
 # Python
 
@@ -10,15 +10,15 @@ Prof. Eduardo Ono
 
 ### Windows
 
-* Download
+* Link para download do instalador:
 
   * [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
-* Opções do instalador
+* Opções que devem ser marcadas durante a instalação:
 
   <img src="./python-install-01.png" alt="img" width="360px">
 
-### Ubuntu
+### Linux/Ubuntu
 
 * O comando a seguir verifica se o Python já está instalado. Tenta executar primeiro o comando `python --version`. Caso retorne um erro, tenta executar o comando `python3 --version`.
 
@@ -33,26 +33,25 @@ Prof. Eduardo Ono
   sudo apt install python3
   ```
 
-* Para instalar o Python 2.x:
+  OBS.: Como o Python 2.x foi descontinuado, possivelmente no futuro, o comando de instalação será (atualmente instala a versão 2.x):
 
   ```sh
-  sudo apt update && sudo apt upgrade
   sudo apt install python
   ```
 
-* Para associar o comando `python3` ao comando `python`, principalmente no WSL 2:
+* Para associar o comando `python3` ao comando `python`, principalmente no WSL 2, aAbrir para edição o arquivo `~/.bash_profile`:
 
   ```sh
   nano ~/.bash_profile
   ```
 
-  Adicionar a linha no arquivo `.bash_profile`:
+  Adicionar o comando a seguir no arquivo `.bash_profile`:
 
   ```sh
   alias python='/usr/bin/python3'
   ```
 
-  Executar o comando:
+  Executar o comando a seguir ou reiniciar o terminal:
 
   ```sh
   source ~/.bash_profile
@@ -74,54 +73,28 @@ Prof. Eduardo Ono
 
 <br>
 
-## Python Pip
-
-### Instalação do Pip no Windows
-
-  Não é necessário pois faz parte da instalação "default" do Python 3.x para Windows.
-
-### Instalação do Pip (Ubuntu)
-
-```sh
-sudo apt install python3-pip
-```
-
-### Listagem dos pacotes instalados
-
-```sh
-pip list
-```
-
-### Instalação de pacotes do Python utilizando o Pip
-
-* Sintaxe do comando
-
-  * pip install <packages-name>
-
-* Exemplos
-
-  * pip install numpy
-
-  * Supondo o arquivo `requirements.txt` salvo no diretório, executar no mesmo diretório:
-
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-    * Exemplo do conteúdo de um arquivo `requirements.txt`:
-
-      ```txt
-      pandas==0.25.3
-      numpy==1.17.4
-      ```
-
-## Ambientes Virtuais
-
-* https://docs.python-guide.org/dev/virtualenvs/#virtualenvironments-ref
-
-* https://www.youtube.com/watch?v=z6_35nNKy0Y
-
-<br>
 
 ---
 https://github.com/eduardo-ono/Ciencia-de-Dados
+
+<br>
+
+## Comandos Úteis para Gerenciamento do Python
+
+* Exibir diretório de instalação do Python (Linux/Ubuntu):
+
+```sh
+which python
+which python3
+which python2
+```
+
+<br>
+
+## Vídeos de Apoio
+
+| Thumb | Descrição |
+| :-: | --- |
+| [![img](https://img.youtube.com/vi/8laFJI2l3gU/default.jpg)](https://www.youtube.com/watch?v=8laFJI2l3gU) | <sup>[Ciência Programada]</sup> [__Criando um ambiente virtual para seu projeto Python__](https://www.youtube.com/watch?v=8laFJI2l3gU) <br> <sub>(1:18:40, YouTube, Ago/2020)</sub>
+
+<br>

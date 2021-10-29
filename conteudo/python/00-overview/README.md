@@ -1,4 +1,4 @@
-> ##### Ciência de Dados > Conteúdo > Python
+> <h5>Ciência de Dados > Conteúdo > Python</h5>
 
 # Overview
 
@@ -40,6 +40,14 @@ Prof. Eduardo Ono
 * https://www.youtube.com/playlist?list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA
 
 * https://www.youtube.com/c/CaioDallaqua/videos
+
+<br>
+
+## Cursos Avançados
+
+| Thumb | Descrição |
+| :-: | --- |
+| [![img](https://img.youtube.com/vi/tdn9_MZ0lN4/default.jpg)](https://www.youtube.com/watch?v=tdn9_MZ0lN4) | <sup>[Extern Code]</sup> [__Most Advance Python Course for Professionals [2021]__](https://www.youtube.com/watch?v=tdn9_MZ0lN4)<br> <sub>(8:21:12, YouTube, Mar/2021)</sub>
 
 <br>
 

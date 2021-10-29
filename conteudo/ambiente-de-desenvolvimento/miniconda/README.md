@@ -1,4 +1,4 @@
-> Ciência de Dados > Conteúdo > Ambiente de Desenvolvimento
+> <h5>Ciência de Dados > Conteúdo > Ambiente de Desenvolvimento</h5>
 
 # Miniconda
 
@@ -6,7 +6,11 @@ Prof. Eduardo Ono
 
 <br>
 
-## Instalação do Miniconda + Pacotes (Windows)
+## Tópicos
+
+* ### Overview
+
+* ### Instalação do Miniconda + Pacotes (Windows)
 
 * Overview
 
@@ -60,63 +64,114 @@ Prof. Eduardo Ono
 
 ## Instalação e Configuração do Miniconda (Linux)
 
-* Criando um novo ambiente com os principais pacotes
+#### Criar um ambiente (abreviado aqui como "env", de _environment_)
 
-  ```
-  conda create -n nome_do_ambiente pandas numpy matplotlib scikit-learn
-  ```
+```sh
+conda create -n <env_name>
+# ou
+conda create --name <env_name>
+```
 
-  ou
+* Exemplos
 
-* Criando um novo ambiente com os principais pacotes
-
-  ```
-  conda create -n nome_do_ambiente pandas numpy matplotlib scikit-learn
-  ```
-
-* Ativando o ambiente
-
-  ```
-  conda activate nome_do_ambiente
+  ```sh
+  conda create -n abacaxi
+  conda create --name env_data-science
   ```
 
-* Desativando o ambiente atual
+#### Criar um novo ambiente com alguns pacotes
 
-  ```
-  conda deactivate nome_do_ambiente
+```sh
+conda create -n <env_name> pandas numpy matplotlib scikit-learn
+```
+
+#### Ativar um ambiente
+
+Para que um ambiente virtual possa ser utilizado, o mesmo deve ser ativado:
+
+```sh
+conda activate <env_name>
+```
+
+#### Desativar o ambiente atual
+
+```sh
+conda deactivate
+```
+
+#### Desativar um ambiente
+
+```sh
+conda deactivate <env_name>
+```
+
+#### Desativar o ambiente (base)
+
+```sh
+conda config --set auto_activate_base false
+```
+
+#### Ativar o ambiente (base)
+
+```sh
+conda config --set auto_activate_base true
+```
+
+<br>
+
+## Gerenciando Bibliotecas em um Ambiente
+
+### Instalação de uma nova biblioteca
+
+* Ativar um ambiente já previamente criado:
+
+  ```sh
+  conda activate <env_name>
   ```
 
-* Deastivando o ambiente (base)
+* Instalar a biblioteca (_lib_)
 
-  ```
-  conda config --set auto_activate_base false
+  ```sh
+  conda install <lib_name>
   ```
 
-* Ativando o ambiente (base)
+  * Exemplo
 
+    ```sh
+    conda install numpy
+    ```
+
+* Exportar a lista de pacotes de um ambiente para um arquivo
+
+  ```sh
+  conda env export > environment.yml
   ```
-  conda config --set auto_activate_base true
+
+* Recriar um ambiente a partir do arquivo `environment.yml`
+
+  ```sh
+  conda env create -f environment.yml
   ```
 
 <br>
 
-## Instalação do Jupyter Lab (Linux) através do Conda
+## Instalação do Jupyter Lab (Linux/Ubuntu) através do Conda
 
 * Ativar um ambiente
 
-  ```
-  conda activate nome_do_ambiente
+  ```sh
+  conda activate <env_name>
   ```
 
 * Instalar o Jupyter Lab
 
-  ```
+  ```sh
   conda install jupyterlab
   ```
 
-  ou, caso prefira o repositório conda-forge
+  ou, caso prefira o repositório `conda-forge`:
 
-  ```
+  ```sh
   conda install -c conda-forge jupyterlab
   ```
 
@@ -130,5 +185,11 @@ Prof. Eduardo Ono
 * https://github.com/rasbt/algorithms_in_ipython_notebooks
 * https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb
 * https://www.dataschool.io/cloud-services-for-jupyter-notebook/
+
+<br>
+
+| Thumb | Descrição |
+| :-: | --- |
+| [![img](https://img.youtube.com/vi/8laFJI2l3gU/default.jpg)](https://www.youtube.com/watch?v=8laFJI2l3gU) | <sup>[Ciência Programada]</sup> [__Criando um ambiente virtual para seu projeto Python__](https://www.youtube.com/watch?v=8laFJI2l3gU) <br> <sub>(1:18:40, YouTube, Ago/2020)</sub>
 
 <br>
