@@ -37,6 +37,8 @@ Prof. Eduardo Ono
 | [![img](https://img.youtube.com/vi/_uQrJ0TkZlc/default.jpg)](https://www.youtube.com/watch?v=_uQrJ0TkZlc) | <sup>[Programming with Mosh]</sup> [__Python Tutorial - Python for Beginners [Full Course]__](https://www.youtube.com/watch?v=_uQrJ0TkZlc) <br> <sub>(6:14:06, YouTube, Fev/2019)</sub>
 | [![img](https://img.youtube.com/vi/8DvywoWv6fI/default.jpg)](https://www.youtube.com/watch?v=8DvywoWv6fI) | <sup>[freeCodeCamp.org]</sup> [__Python for Everybody - Full University Python Course__](https://www.youtube.com/watch?v=8DvywoWv6fI) <br> <sub>(13:40:09, YouTube, Mai/2019)</sub>
 
+* https://www.youtube.com/playlist?list=PLAqvrfhetN0hMEREbK604uUEYZCASF_5j
+
 * https://www.youtube.com/playlist?list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA
 
 * https://www.youtube.com/c/CaioDallaqua/videos

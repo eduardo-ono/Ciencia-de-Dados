@@ -26,45 +26,60 @@ Prof. Eduardo Ono
 
 * Instalação do Miniconda
 
-  * Opções "default" exceto:
+  * Instalar com as opções "default".
 
-    <img src="./img/anaconda_install-path.png" alt="img" width="200">
+* Atualização do Miniconda
 
-* Instalação do JupyterLab
+```bash
+conda update conda
+```
 
-  ```cmd
-  conda install -c conda-forge jupyterlab
-  ```
+<br>
 
-  * Solução de possíveis erros na instalação do JupyterLab
+## Configuração do Miniconda
 
-    * Erro: "The Jupyter Server requires tornado"
-    * Solução:
+* Para tornar "default" o repositório conda-forge, abrir o terminal "Anaconda Prompt" (criado na instalação do Miniconda) e digitar:
 
-      ```cmd
-      pip install --upgrade tornado
-      ```
+```cmd
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+```
 
-    * Erro: "ImportError: DLL load failed while importing win32api"
-    * Possíveis soluções:
+## Instalação do JupyterLab
 
-      ```cmd
-      conda install pywin32
-      ```
+* Abrir o terminal "Anaconda Prompt" e digitar:
 
-      ```cmd
-      pip install --upgrade pywin32
-      ```
+```cmd
+conda install jupyterlab
+```
 
-      ```cmd
-      pip install --upgrade jupyter_client
-      ```
+* Caso o repositório "default" não tenha sido configurado, digitar:
+
+```cmd
+conda install -c conda-forge jupyterlab
+```
 
 <br>
 
 ## Instalação e Configuração do Miniconda (Linux)
 
-#### Criar um ambiente (abreviado aqui como "env", de _environment_)
+<br>
+
+## Gerenciamento de Ambientes Virtuais com o Conda
+
+* Exibir informação sobre o ambiente
+
+```sh
+conda info
+```
+
+* Listar todos os ambientes configurados
+
+```sh
+conda env lista
+```
+
+* Criar um ambiente (abreviado aqui como "env", de _environment_):
 
 ```sh
 conda create -n <env_name>
@@ -72,20 +87,20 @@ conda create -n <env_name>
 conda create --name <env_name>
 ```
 
-* Exemplos
+* Exemplos:
 
-  ```sh
-  conda create -n abacaxi
-  conda create --name env_data-science
-  ```
+```sh
+conda create -n abacaxi
+conda create --name abacaxi
+```
 
-#### Criar um novo ambiente com alguns pacotes
+* Criar um novo ambiente com alguns pacotes:
 
 ```sh
 conda create -n <env_name> pandas numpy matplotlib scikit-learn
 ```
 
-#### Ativar um ambiente
+* Ativar um ambiente
 
 Para que um ambiente virtual possa ser utilizado, o mesmo deve ser ativado:
 
@@ -93,35 +108,47 @@ Para que um ambiente virtual possa ser utilizado, o mesmo deve ser ativado:
 conda activate <env_name>
 ```
 
-#### Desativar o ambiente atual
+* Desativar o ambiente atual
 
 ```sh
 conda deactivate
 ```
 
-#### Desativar um ambiente
+* Desativar um ambiente
 
 ```sh
 conda deactivate <env_name>
 ```
 
-#### Desativar o ambiente (base)
+* Desativar o ambiente (base)
 
 ```sh
 conda config --set auto_activate_base false
 ```
 
-#### Ativar o ambiente (base)
+* Ativar o ambiente (base)
 
 ```sh
 conda config --set auto_activate_base true
 ```
 
+* Remover um ambiente
+
+```sh
+conda env remove -n <env_name>
+```
+
 <br>
 
-## Gerenciando Bibliotecas em um Ambiente
+## Gerenciando de Pacotes em um Ambiente
 
-### Instalação de uma nova biblioteca
+### Pacotes Recomendados
+
+* pandas
+
+* matplotlib
+
+### Instalação de um Novo Pacote
 
 * Ativar um ambiente já previamente criado:
 
@@ -129,7 +156,7 @@ conda config --set auto_activate_base true
   conda activate <env_name>
   ```
 
-* Instalar a biblioteca (_lib_)
+* Instalar o pacote (_lib_)
 
   ```sh
   conda install <lib_name>
@@ -138,6 +165,7 @@ conda config --set auto_activate_base true
   * Exemplo
 
     ```sh
+    conda install python=3.9.12
     conda install numpy
     ```
 
@@ -169,11 +197,38 @@ conda config --set auto_activate_base true
   conda install jupyterlab
   ```
 
-  ou, caso prefira o repositório `conda-forge`:
+  ou, caso não tenha configurado o repositório `conda-forge`:
 
   ```sh
   conda install -c conda-forge jupyterlab
   ```
+
+## Instalação de um Kernel no Jupyter
+
+### Método 1: Mais simples
+
+* Instalar o `nb_conda_kernels` no ambiente base:
+
+```sh
+conda install -c conda-forge nb_conda_kernels
+```
+
+* Instalar o ambiente `env` como kernel do Jupyter:
+
+```sh
+conda activate <env_name>
+conda install ipykernel
+conda deactivate
+```
+
+### Método 2: Kernels Individuais
+
+```sh
+conda activate <env_name>
+conda install ipykernel
+ipython kernel install --user --name=<kernel_name>
+conda deactivate
+```
 
 <br>
 

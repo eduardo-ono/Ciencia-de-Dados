@@ -16,6 +16,12 @@ Prof. Eduardo Ono
 
 <br>
 
+## Crash Courses
+
+* https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS
+
+<br>
+
 ## Vídeos Recomendados
 
 * [McKay Johns] https://www.youtube.com/watch?v=ULWmOIfp_20

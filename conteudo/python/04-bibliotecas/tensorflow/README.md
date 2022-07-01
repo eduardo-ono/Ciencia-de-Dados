@@ -14,3 +14,9 @@ Prof. Eduardo Ono
 | [![img](https://img.youtube.com/vi/MwUBWpedVkc/default.jpg)](https://www.youtube.com/watch?v=MwUBWpedVkc) | <sup>[The Code City]</sup> [__Create a Chatbot using Python in 60 minutes - Full Tutorial__](https://www.youtube.com/watch?v=MwUBWpedVkc)<br> <sub>(21:28, YouTube, Mai/2021)</sub>
 
 <br>
+
+## Cursos "Completos"
+
+* https://www.youtube.com/playlist?list=PLZ3V9XyVA529zMabYOyhFjR1FZyVeMPsC
+
+<br>

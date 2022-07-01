@@ -1,5 +1,13 @@
 
+# ChatBot (II Semana de Tecnologia e Inovação - Unisal / Trilha 3)<br><sub>05 e 06 de Outubro de 2021</sub>
 
+Prof. Eduardo Ono
+
+## Descrição
+
+Mini curso apresentado pelo Prof. e Cientista de Dados Juan e pelo Prof. José Walmir Gonçalves (Unisal) nos dias 05 e 06 de Outubro de 2021, na II Semana de Tecnologia e Inovação - Unisal.
+
+<br>
 
 Comandos
 

@@ -6,11 +6,27 @@ Prof. Eduardo Ono
 
 <br>
 
-```sh
+* Iniciar o Jupyter Lab pela linha de comando
+
+```bat
+jupyter lab
+```
+
+  * O Jupyter Lab será iniciado em uma página do navegador.
+
+* Para sair do Jupyter Lab, selecionar menu --> `File` e `Shut Down`.
+
+* Iniciar o Jupyter Notebook pela linha de comando
+
+```bat
+jupyter notebook
+```
+
+```bash
 jupyter kernelspec list
 ```
 
-```sh
+```bash
 # Linux
 which -a python
 ```
