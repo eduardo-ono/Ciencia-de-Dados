@@ -6,15 +6,23 @@ Prof. Eduardo Ono
 
 <br>
 
-## Sumário
+## Tópicos
 
 * ### Introdução
 
 https://www.youtube.com/watch?v=150-dpYG1pg
 
+## Conceitos
+
+> Uma __*instrução*__ ("_statement_") de um programa de computador é uma unidade de código que produz um efeito, como criar uma variável, efetuar um cálculo ou exibir um valor.
+
+<p align="right">dscdsc</p>
+
 * ### Estruturas de Decisão
 
 * ### [Estruturas de Repetição](./estruturas-de-repeticao.ipynb)
+
+* ### [Funções Definidas pelo Usuário](./funcoes.ipynb)
 
 <br>
 
